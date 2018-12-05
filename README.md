@@ -28,7 +28,7 @@ SPOTIFY_SECRET= your_spotify_secret
 GOOGLE_KEY = your_googlemap_api
 ```
 - [ ] Replace keys above with your own keys.
-1. Install required dependencies
+2. Install required dependencies
 - [ ] Run the following code from your Terminal/Bash
 ```javascript
 npm install
