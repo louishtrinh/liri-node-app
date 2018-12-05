@@ -7,16 +7,16 @@ Liri node app is a raw, but highly effective in searching for data such as:
 1. Really quick look up of a movie info for your next weekend.
 
 ## Quick Start
-1. Set up .env file
+### Set up .env file
 Liri app will require:
 * Spotify credential of "SPOTIFY_ID" and "SPOTIFY_SECRET"
 * Google Maps API key
 
 Follow these step below to set it up correctly.
-- [ ] Navigate to liri-node-app clone folder.
-- [ ] Create .env file (from Terminal/Bash, input "touch .env"
-- [ ] Open newly created .env file
-- [ ] Paste the below snippet
+1. Navigate to liri-node-app clone folder.
+1. Create .env file (from Terminal/Bash, input "touch .env"
+1. Open newly created .env file
+1. Paste the below snippet
 ```javascript
 # Spotify API keys
 
@@ -27,9 +27,9 @@ SPOTIFY_SECRET= your_spotify_secret
 
 GOOGLE_KEY = your_googlemap_api
 ```
-- [ ] Replace keys above with your own keys.
-2. Install required dependencies
-- [ ] Run the following code from your Terminal/Bash
+1. Replace keys above with your own keys.
+### Install required dependencies
+Run the following code from your Terminal/Bash
 ```javascript
 npm install
 ```
