@@ -27,7 +27,7 @@ SPOTIFY_SECRET= your_spotify_secret
 
 GOOGLE_KEY = your_googlemap_api
 ```
-1. Replace keys above with your own keys.
+5. Replace keys above with your own keys.
 ### Install required dependencies
 Run the following code from your Terminal/Bash
 ```javascript
