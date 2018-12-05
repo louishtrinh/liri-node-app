@@ -31,7 +31,6 @@ function concertThis () {
     .then(function (response) {
       responseLength = response.data.length
       responseData = response
-      console.log(responseLength)
       displayConcert()
     })
 }
@@ -66,7 +65,7 @@ function movieThis () {
   if (searchItem === '') {searchItem = 'Mr.Nobody'}
   axios.get(`http://www.omdbapi.com/?t=${searchItem}&y=&plot=short&apikey=trilogy`).then(function (response) {
     // console.log(response.data)
-    console.log(`\n`)
+    console.log(``)
     console.log(`Movie title:             ${response.data.Title}`)
     console.log(`Year release:            ${response.data.Released}`)
     console.log(`IMDB Rating:             ${response.data.imdbRating}`)

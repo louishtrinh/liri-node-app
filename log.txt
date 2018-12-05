@@ -1,3 +1,0 @@
-concert-this,Pink
-concert-this,Jay-Z
-concert-this,Maroon+5
