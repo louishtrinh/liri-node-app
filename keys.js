@@ -3,6 +3,6 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-exports.google - {
-    key: process.env.GOOGLE_KEY
+exports.google = {
+    key: process.env.GOOGLE_KEY,
 }
